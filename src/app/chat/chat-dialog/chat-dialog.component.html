@@ -1,8 +1,9 @@
-<h1>Angular Bot</h1>
+<content>
+<h1 style="text-align: center">Angular Bot</h1>
 
 
-
-
+<br>
+<div class="main">
 <ng-container *ngFor = "let message of messages | async">
 
         <div class="message" [ngClass]="{'from':  message.sentBy == 'bot',
@@ -12,7 +13,13 @@
         </div>
 
 </ng-container>
+</div>
+<br>
+</content>
+<br>
+<div class="footer">
+<input placeholder="Try something....." type="text" [(ngModel)]="formValue" (keyup.enter)="sendMessage()">
 
-<label for="nameField">Your Message</label>
-<input type="text" [(ngModel)]="formValue" (keyup.enter)="sendMessage()">
-<button (click)="sendMessage()">Send</button>
+
+<button type="button"  (click)="sendMessage()"><mat-icon >send</mat-icon></button>
+</div>

@@ -1,0 +1,82 @@
+input{
+    font-size: 18px;
+    color: white;
+    border-radius: 25px;
+    height: 30px;
+    width: 78%;
+    bottom: 0;
+    position: fixed;
+    background-color:rgb(63, 63, 63);
+    border-color: transparent;
+    margin-left: 8px;
+}
+button{
+    color:rgb(255, 0, 0);
+    width: 100px;
+    height: 42px;
+    background-color:rgb(63, 124, 55);
+    border-radius: 7px;
+    margin-left:77%;
+    margin-top: 2px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.mat-icon{
+    
+    font-size: 35px;
+}
+label, h1{
+    color: #cecece;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  text-align: center;
+  height: 44px;
+}
+
+.message {
+    border-radius: 50px;
+    margin:  15px 10px;
+    padding:  10px 20px;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgb(53, 53, 53);
+    font-size: 14px;
+    background-color: transparent;
+    
+}
+
+.message.to{
+    margin-left: 120px;
+    text-align: right;
+    color: white;
+    background-color:rgb(119, 122, 126);
+    width: auto;
+    
+    
+    
+    
+    margin-top: 10px;
+    
+  
+}
+.message.from{
+    
+    margin-right: 100px;
+    color: white;
+    background-color:rgb(63, 63, 63);
+    
+    width: auto;
+    margin-top: 10px;
+    
+  
+    
+}
